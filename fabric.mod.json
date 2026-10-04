@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "visualfx",
+  "version": "${version}",
+  "name": "Visual FX",
+  "description": "Client-side visual effects for Minecraft 1.21.11.",
+  "authors": ["VisualFX"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.visualfx.VisualFxClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
